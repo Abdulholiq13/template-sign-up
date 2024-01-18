@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 23px;
+  font-family: 'Karla', 'Arial', sans-serif;
+  font-weight: 400;
+  background-color: #a7d7c5;
+  background-image: url(../img/Rectangle.svg), url(../img/Rectangle-2.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 71px;
+  margin-top: 68px;
+  margin-bottom: 10px;
+}
+
+.form-subtitle {
+  width: 473px;
+  margin-bottom: 22px;
+  color: #32403b;
+}
+
+.form-input {
+  width: 567px;
+  height: 84px;
+  text-indent: 32px;
+  font-size: 23px;
+  border-radius: 15.3px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  margin-top: 23px;
+}
+
+.submit {
+  width: 392px;
+  height: 90px;
+  margin-top: 32px;
+  margin-bottom: 17px;
+  font-size: 33px;
+  text-transform: capitalize;
+  border-radius: 23px;
+  border: none;
+  background-color: #84c7ae;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: rgba(132, 199, 174, 0.6);
+  cursor: pointer;
+}
+
+.question-of-account {
+  font-size: 21px;
+  color: #32403b;
+}
+
+.question-of-account a {
+  color: #32403b;
+}
